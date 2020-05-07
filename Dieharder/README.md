@@ -1,7 +1,7 @@
 # Dieharder
 
 #### Example data
-```dieharder -f example.input -a - g 202```
+```dieharder -o -f example.input -t 10```
 #### Run test
 ```dieharder -d 1 -g 201 -f example1.input```
 
@@ -15,6 +15,21 @@
 ```-g <201/202/generator number>```
 
 ```-f <filename>``` <- input with data
+
+## Inputs list
+
+|Generator number(-g)   |Generator Name         |
+|---                    |---                    |
+|200                    |stdin_input_raw        |
+|201                    |file_input_raw         |
+|202                    |file_input             |
+|203                    |ca                     |
+|204                    |uvag                   |
+|205                    |AES_OFB                |
+|206                    |Threefish_OFB          |
+|207                    |XOR (supergenerator)   |
+|208                    |kiss                   |
+|209                    |superkiss              |
 
 
 ## Tests list
