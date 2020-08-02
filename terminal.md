@@ -37,8 +37,7 @@
 
 # Examples:
 
-* find -name '*green*' | wc -l 
-```40```
+* find -name '*green*' | wc -l <- count files with 'green'
 
 * find -name '*green*' > ../list.txt
 
