@@ -35,7 +35,8 @@
 * man <command_name> - manual
 * <command_name> --help - short manual
 
-# Examples:
+
+## Examples:
 
 * find -name '*green*' | wc -l <- count files with 'green'
 
