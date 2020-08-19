@@ -1,0 +1,41 @@
+Vagrant.configure("2") do |config|
+	#Vagrant boxes -> https://app.vagrantup.com/boxes/search
+	#config.vm.box = "hashicorp-vagrant/centos-7.4"
+	#config.vm.box = "hashicorp/bionic64"
+	#config.vm.box = "ubuntu/trusty64"
+	config.vm.box = "ubuntu/xenial64"
+
+	#Vagrant 80 to 8080 on host -> localhost:8080 
+	#config.vm.network "forwarded_port", guest: 8080, host: 8080
+	config.vm.network "forwarded_port", guest: 80, host: 8080
+	
+	#Synced folders 
+	#param1 - host folder
+	#param2 - guest(vm) folder
+	#https://www.vagrantup.com/docs/synced-folders/basic_usage
+	config.vm.synced_folder ".", "/vagrant", #Important for playbook.yml !
+		create: true,
+		owner: "vagrant",
+		group: "vagrant"
+	
+	if Vagrant.has_plugin?("vagrant-cachier")
+		config.cache.scope = :box
+	end
+
+	#Configuration a specific provider
+	config.vm.provider "virtualbox" do |vb|
+		vb.gui = false
+		vb.memory = "6144" #4096
+		vb.cpus = 4
+		vb.customize ["modifyvm", :id, "--cpuexecutioncap", "95"]
+	end
+	
+	#Allows to upload and execute a script within the guest machine
+	#netstat -na | find "8080"
+	config.vm.provision "shell", inline: 'echo test'
+	
+	config.vm.provision "ansible_local" do |ansible|
+		ansible.playbook = "playbook.yml"
+    end
+
+end
