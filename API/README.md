@@ -14,3 +14,4 @@
 ## Tools
 
 * [RapidApi](https://rapidapi.com/blog/directory/google-books/) - API Directory
+* [Any API](https://any-api.com/) - Documentation and Test Consoles for Over 1400 Public APIs
