@@ -40,9 +40,15 @@
 
 * ```which <shell_command>``` - shows the full path of (shell) commands (e.g. "npm")
 
+* ```cal``` - get date
+
 * ```ping github.com``` - test a network connection.
 
 * ```curl https://github.com/Mikbac``` - transfer data from or to a server
+
+* ```alias ..="cd .."``` - add alias
+
+* ctrl + r - reverse search
 
 * ```man <command_name>``` - manual
 * ```<command_name> --help``` - short manual
