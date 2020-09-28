@@ -53,7 +53,6 @@
 * ```man <command_name>``` - manual
 * ```<command_name> --help``` - short manual
 
-
 ## Examples:
 
 * ```find -name '*green*' | wc -l``` <- count files with 'green'
@@ -80,3 +79,5 @@
 
 * ```cat fileName*.txt | grep '^Y' | sort``` <- filtr and sort 
 * ```cat fileName*.txt | grep '^Y' | sort -r``` <- filtr and reverse sort 
+
+* ```export PATH=$PATH:/usr/src/hive/build/``` <- sets the environment variable PATH
