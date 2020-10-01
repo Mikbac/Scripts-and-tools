@@ -81,3 +81,5 @@
 * ```cat fileName*.txt | grep '^Y' | sort -r``` <- filtr and reverse sort 
 
 * ```export PATH=$PATH:/usr/src/hive/build/``` <- sets the environment variable PATH
+
+* ```sudo !!``` <- previous command with sudo
