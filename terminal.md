@@ -17,7 +17,9 @@
 * ```rm -rf <directory_name>``` - remove directory (-rf <- recursive force)
 
 * ```cat <file_name>``` - create, view, concatenate file
+* ```cat -stn <file_name>``` - add numbers to the beginning of the line
 * ```less <file_name>``` - view file (q - quit)
+* ```tail -f <fil_ename>``` - reads last 10 lines of the file (-f helps monitor e.g. logs)
 
 * ```wc <flag> <file_name>``` - word counter (flags: -c <- bytes; -m <- chars; -l <- lines; ...)
 
