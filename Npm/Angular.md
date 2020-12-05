@@ -21,3 +21,18 @@ import { AutofocusFixModule } from 'ngx-autofocus-fix';
 ```
 import { HttpClientModule } from '@angular/common/http';
 ```
+
+*
+```
+npm install firebase @angular/fire
+```
+
+## Other
+* Bootstrap
+```
+npm install bootstrap
+npm install jquery
+```
+```
+@import "~bootstrap/dist/css/bootstrap.css"
+```
