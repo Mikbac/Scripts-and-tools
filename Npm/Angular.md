@@ -36,3 +36,12 @@ npm install jquery
 ```
 @import "~bootstrap/dist/css/bootstrap.css"
 ```
+
+* Animate - https://animate.style/
+```
+https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css
+```
+or
+```
+npm install animate.css --save
+```
