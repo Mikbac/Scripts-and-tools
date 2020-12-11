@@ -43,6 +43,10 @@ npm install jquery
 ```
 https://unpkg.com/knopf.css/knopf.min.css
 ```
+or 
+```
+npm install knopf.css
+```
 
 * ### Animate - https://animate.style/
 ```
