@@ -37,7 +37,14 @@ npm install jquery
 @import "~bootstrap/dist/css/bootstrap.css"
 ```
 
-* Animate - https://animate.style/
+## Css libs
+
+* ### Knopf - https://knopf.dev/
+```
+https://unpkg.com/knopf.css/knopf.min.css
+```
+
+* ### Animate - https://animate.style/
 ```
 https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css
 ```
