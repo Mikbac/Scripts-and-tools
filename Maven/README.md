@@ -1,7 +1,19 @@
 # Maven
-Install:
+
+Install Maven:
+```
+sudo apt update && sudo apt install maven && mvn -version
+```
+
+## Maven:
+Install project:
 ```
 mvn install
+```
+
+Version:
+```
+mvn -version
 ```
 
 ## Dependencies
