@@ -12,6 +12,13 @@ addAliases()
 { 
 echo >> $CONFIG_FILE;
 echo "alias ..=\"cd ..\"" >> $CONFIG_FILE;
+
+echo "alias l=\"ls -F\"" >> $CONFIG_FILE;
+echo "alias s=\"ls -F\"" >> $CONFIG_FILE;
+echo "alias sl=\"ls -F\"" >> $CONFIG_FILE;
+echo "alias lls=\"ls -F\"" >> $CONFIG_FILE;
+echo "alias lss=\"ls -F\"" >> $CONFIG_FILE;
+
 }
 
 
