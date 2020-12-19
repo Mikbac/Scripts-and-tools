@@ -37,6 +37,11 @@ npm install jquery
 @import "~bootstrap/dist/css/bootstrap.css"
 ```
 
+* Big.js
+```
+npm install big.js
+```
+
 ## Css libs
 
 * ### Knopf - https://knopf.dev/
