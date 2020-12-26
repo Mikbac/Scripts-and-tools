@@ -27,6 +27,11 @@ import { HttpClientModule } from '@angular/common/http';
 npm install firebase @angular/fire
 ```
 
+* [ngx-spinner](https://www.npmjs.com/package/ngx-spinner) - spinner
+```
+npm install ngx-spinner --save
+```
+
 ## Other
 * Bootstrap
 ```
