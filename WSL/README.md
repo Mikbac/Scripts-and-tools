@@ -6,3 +6,8 @@
 
 # set v2 as the default version
 ```wsl.exe --set-default-version 2```
+
+# hypervisor launch type
+```bcdedit /set hypervisorlaunchtype auto``` <- fixes a bug with Ubuntu installation
+
+```bcdedit /set hypervisorlaunchtype off```
